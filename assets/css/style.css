@@ -8,7 +8,8 @@ body {
     font-size: 18px;
     line-height: 34px;
     font-family: Arial, Helvetica, sans-serif;
-    color: #777777;   
+    color: #777777;  
+    margin: 0; 
 
 
 }
@@ -54,7 +55,7 @@ h2, h3 {
     z-index: 99;
     color: #ffffff;
     overflow: auto;
-    border-bottom: 2px solid #ccc;
+    border-bottom: 2px solid #cccccc;
     position: fixed;
     width: 100%;
 }
@@ -67,7 +68,7 @@ h2, h3 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     line-height: 90px;
-    color: #fff;
+    color: #ffffff;
     font-weight: 700;
     font-size: 30px;
     text-decoration: none;
@@ -79,7 +80,7 @@ nav {
 }
 
 nav a {
-    color: #999;
+    color: #999999;
     text-decoration: none;
     margin-left: 15px;
     display: inline-block;
@@ -98,13 +99,13 @@ nav a:first-child {
 }
 
 .main-section {
-    background: #fff;
+    background: #ffffff;
     padding: 30px;
     margin: 0 0 40px 0;
     width: 100%;
-    max-width: 650px;
+    max-width: 960px;
     float: left;
-    border: 1px solid #ddd;
+    border: 1px solid #dddddd;
 }
 
 .auth-image {
@@ -117,17 +118,17 @@ nav a:first-child {
 
 /*sidebar*/
 .sidebar {
-    background: #fff;
+    background: #ffffff;
     padding: 30px;
     width: 100%;
     max-width: 270px;
     float: right;
-    border: 1px solid #ddd;
+    border: 1px solid #dddddd;
     margin-bottom: 20px;
 }
 
 h3, .sidebar, h2 {
-    border-bottom: 2px solid #eee;
+    border-bottom: 2px solid #eeeeee;
     padding-bottom: 20px;
     margin-bottom: 15px;
     line-height: 22px;
@@ -191,9 +192,9 @@ footer{
 
 /*contacts page*/
 
-#contact-form ul {
+/*#contact-form ul {
     margin-bottom: 20px;
-}
+}*/
 
 #contact-form li {
     margin-bottom: 10px;
@@ -223,7 +224,7 @@ textarea {
 input [type=submit] {
     background: #4aaaa5;
     border: 0 none;
-    color: #fff;
+    color: #ffffff;
     font-size: 18px;
     padding: 10px 30px;
     cursor: pointer;
